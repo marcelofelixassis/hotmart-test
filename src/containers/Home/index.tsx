@@ -22,7 +22,7 @@ const Home: React.FC<Props> = (props) => {
         loadHeader();
         loadTimeline();
         loadSidebar();
-    },[])
+    })
 
     const addNewItem = () => {
         const newItem = {
