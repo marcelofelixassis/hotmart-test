@@ -1,0 +1,41 @@
+.home-container {
+    color: #07070d;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-container-left {
+    background-color: #f4f6fa;
+    width: 65%;
+    padding: 20px 55px 20px 25px;
+}
+
+.home-container-right {
+    width: 35%;
+    padding: 33px 36px 36px 33px;
+}
+
+.btn-add-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-add {
+    width: 214px;
+    height: 36px;
+    padding: 6px 13.8px 6px 14px;
+    border-radius: 6px;
+    border: solid 1px #6b7480;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #6b7480;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

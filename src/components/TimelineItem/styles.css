@@ -1,0 +1,121 @@
+.timeline-item-container {
+    width: calc(100% - 28px);
+    padding: 14px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    margin: 24px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-and-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-border {
+    width: 32px;
+    height: 30px;
+    margin: 0 9px 10px 8px;
+    padding: 21px 17px 17px;
+    background-color: #f0f3f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.date-text {
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #545b64;
+}
+
+.type-and-title {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+}
+
+.type-text {
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #d0d3d6;
+}
+
+.title-text{
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #545b64;
+}
+
+.value {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+}
+
+.approved {
+    width: 50px;
+    height: 10px;
+    margin: 3px 0 0;
+    padding: 6px 12px;
+    border-radius: 18px;
+    border: solid 1px #03a046;
+    background-color: #e6fff0;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #03a046;
+    text-align: center;
+}
+
+.deductible {
+    width: 50px;
+    height: 10px;
+    margin: 3px 0 0;
+    padding: 6px 12px;
+    border-radius: 18px;
+    border: solid 1px #2c302e;
+    background-color: #d8dcd9;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #545b64;
+    text-align: center;
+}
+
+.subtitle-text {
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #545b64;
+}

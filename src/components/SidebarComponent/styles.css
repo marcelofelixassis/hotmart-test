@@ -1,0 +1,32 @@
+.status-container {
+    height: 86px;
+    margin-bottom: 32px;
+    padding: 10px 104px 12px;
+    border-radius: 6px;
+    border: solid 1px #009d43;
+    background-color: #edfff5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.status-text-sidebar {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #006e2f;
+}
+
+.done-text-sidebar {
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #009d43;
+}
